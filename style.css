@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contêiner {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nome-marca {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; 
+}
+
+.primeira-palavra, .segunda-palavra {
+    font-size: 18px; 
+    text-align: center; 
+    font-weight: normal; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a img{
+    width: 60px;
+    height: 60px;
+}
+
+nav ul li a:hover {
+    color: purple;
+}
+
+.bloco {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.roxo {
+    color: purple;
+}
+
+.envoltório-de-coluna {
+    display: flex;
+}
+
+.coluna {
+    flex: 1;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.bloco > p:nth-of-type(3){
+text-align: center;
+}
+
+.coluna p {
+    width: 70%;
+    align-items: center;
+}
+
+.bloco > p {
+    width: 80%;
+    text-align: center;
+}
+
+.coluna:last-child {
+    margin-right: 0;
+}
+
+.largura-total {
+    width: 100%;
+}
+
+.equipe {
+    display: flex;
+}
+
+.membro-da-equipe {
+    flex: 1;
+    text-align: center;
+}
+
+.membro-da-equipe img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.conectar {
+    text-align: center;
+}
+
+.links-sociais a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.links-sociais a img{
+    width: 28px;
+    height: auto;
+}
